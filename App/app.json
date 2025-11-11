@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "campus-report",
+    "slug": "campus-report",
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "불편사항 신고 사진 촬영을 위해 카메라 접근이 필요합니다.",
+        "NSPhotoLibraryUsageDescription": "불편사항 신고에 사진을 첨부하기 위해 사진 라이브러리 접근이 필요합니다."
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"]
+    }
+  }
+}
