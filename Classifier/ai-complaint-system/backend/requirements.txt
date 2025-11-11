@@ -1,0 +1,28 @@
+# --- FastAPI & Server ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+
+# --- Machine Learning ---
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2
+
+# --- Async / Network / Cache ---
+redis==5.0.8
+aiosmtplib==3.0.2
+
+# --- Security / Auth ---
+PyJWT==2.9.0
+
+# --- Database ---
+SQLAlchemy==2.0.36
+psycopg[binary]==3.2.3   # PostgreSQL 연결용 (Docker의 db 서비스와 연동)
+
+# --- Optional: LLM Router (OpenAI) ---
+openai==1.52.0
+
+# --- Utility ---
+python-dotenv==1.0.1
