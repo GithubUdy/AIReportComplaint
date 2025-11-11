@@ -1,0 +1,34 @@
+# ─── FastAPI Core ──────────────────────────────
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# ─── ORM & Database ────────────────────────────
+SQLAlchemy==2.0.36
+alembic==1.13.2
+asyncmy==0.2.9                  # MySQL용 (PostgreSQL이면 asyncpg로 변경)
+pydantic==2.9.2
+pydantic-settings==2.6.1
+aiosqlite==0.20.0
+
+# ─── Auth / Security ───────────────────────────
+PyJWT==2.9.0
+passlib[bcrypt]==1.7.4
+
+# ─── File / Storage / Email ────────────────────
+fastapi-mail==1.4.1
+boto3==1.35.25                  # AWS S3 선택 시 사용
+python-multipart==0.0.9         # 파일 업로드용
+
+
+# ─── Utility / Caching ─────────────────────────
+aioredis==2.0.1
+redis==5.1.1
+
+# ─── Dev / Tooling ─────────────────────────────
+watchfiles==0.23.0              # uvicorn --reload 내부 dependency
+python-dotenv==1.0.1
+email-validator==2.2.0          # Pydantic의 EmailStr 필드용
+
+# ─── Optional (통계/분석 등 확장용) ─────────────
+pandas==2.2.3
+numpy==2.1.2
